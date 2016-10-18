@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <title>catalog</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link href='https://fonts.googleapis.com/css?family=Roboto:400,500&amp;subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+        <link href="css/style.min.css" rel="stylesheet">
+    </head>
+    <body class="inner">
+        <header class="header">
+            <div class="container clearfix">
+                <a class="logo" href="#"><img src="img/nerds-logo-header.png" width="139" height="56" alt="Nerd's logo"></a>
+                <ul class="main-menu">
+                    <li class="main-menu__item"><a class="main-menu__link" href="#">СТУДИЯ</a></li>
+                    <li class="main-menu__item"><a class="main-menu__link" href="#">КЛИЕНТЫ</a></li>
+                    <li class="main-menu__item"><a class="main-menu__link main-menu__link--active" href="#">МАГАЗИН</a></li>
+                    <li class="main-menu__item"><a class="main-menu__link" href="#">КОНТАКТЫ</a></li>
+                    <li class="main-menu__item main-menu__item--basket"><a class="main-menu__link icon-basket" href="#">КОРЗИНА</a></li>
+                </ul>
+            </div>
+        </header>
+        <h1 class="catalog-title">добро пожаловать в магазин<br> готовых макетов</h1>
+            <div class="page-content container">
+                <div class="clearfix">
+                    <div class="filter">
+                        <form>
+                            <p class="filter-title">СТОИМОСТЬ:</p>
+                            <div class="range-filter">
+                                <div class="range-controls">
+                                    <div class="scale">
+                                        <div class="bar" style="margin-left: 20%; width: 30%"></div>
+                                    </div>
+                                    <a class="toggle toggle-min" href="#"></a>
+                                    <a class="toggle toggle-max" href="#"></a>
+                                </div>
+                                <div class="price-controls">
+                                    <label class="min-price">от <input name="min-price" type="text" value="0"></label>
+                                    <label class="max-price">до <input name="max-price" type="text" value="15000"></label>
+                                </div>
+                            </div>
+                            <div class="filter-section">
+                                <p class="filter-title">СЕТКА:</p>
+                                <ul class="filter-list">
+                                    <li class="filter-list__item"><input type="radio" id="rad1" class="radio" name="layout" value="1"><label for="rad1" class="icon-circle filter-lable">Адаптивная</label></li>
+                                    <li class="filter-list__item"><input type="radio" id="rad2" class="radio" name="layout" value="2"><label for="rad2" class="icon-circle filter-lable">Фиксированная</label></li>
+                                    <li class="filter-list__item"><input type="radio" id="rad3" class="radio" name="layout" value="3"><label for="rad3" class="icon-circle filter-lable">Резиновая</label></li>
+                                </ul>
+                            </div>
+                            <div class="filter-section filter-section-last">
+                                <p class="filter-title">ОСОБЕННОСТИ:</p>
+                                <ul class="filter-list">
+                                    <li class="filter-list__item-check"><input type="checkbox" id="check1" class="checkbox"><label for="check1" class="icon-check-off filter-lable">Слайдер</label></li>
+                                    <li class="filter-list__item-check"><input type="checkbox" id="check2" class="checkbox"><label for="check2" class="icon-check-off filter-lable">Блок перимуществ</label></li>
+                                    <li class="filter-list__item-check"><input type="checkbox" id="check3" class="checkbox"><label for="check3" class="icon-check-off filter-lable">Новости</label></li>
+                                    <li class="filter-list__item-check"><input type="checkbox" id="check4" class="checkbox"><label for="check4" class="icon-check-off filter-lable">Галерея</label></li>
+                                    <li class="filter-list__item-check"><input type="checkbox" id="check5" class="checkbox"><label for="check5" class="icon-check-off filter-lable">Корзина</label></li>
+                                </ul>
+                            </div>
+                            <button class="btn--grey filter-btn" type="submit">ПОКАЗАТЬ</button>
+                        </form>
+                    </div>
+                    <div class="catalog-section">
+                        <ul class="sort clearfix">
+                            <li class="sort-var">СОРТИРОВАТЬ:</li>
+                            <li class="sort-var"><a class="sort-var__link" href="#">ПО ЦЕНЕ</a></li>
+                            <li class="sort-var"><a class="sort-var__link" href="#">ПО ТИПУ</a></li>
+                            <li class="sort-var"><a class="sort-var__link" href="#">ПО ФУНКЦИОНАЛУ</a></li>
+                            <li class="sort-var"><a class="sort-var__down icon-down-dir" href="#"></a><a class="sort-var__up icon-up-dir" href="#"></a></li>
+                        </ul>
+                        <div class="templates clearfix">
+                            <div class="templates__item">
+                                <div class="item-title"></div>
+                                <img src="img/porduct-001.jpg" width="240" height="240" alt="Sunset. Одностраничный макет с авторским дизайном.">
+                                <div class="details">
+                                    <h4 class="details__title">AVIATOR</h4>
+                                    <p> Одностраничный макет<br>с авторским дизайном</p>
+                                    <a class="details__btn btn btn--red" href="#">8000 Р.</a>
+                                </div>
+                            </div>
+                            <div class="templates__item">
+                                <div class="item-title"></div>
+                                <img src="img/porduct-002.jpg" width="240" height="240" alt="SUNSET. Интернет-магазин с личным кабинетом.">
+                                <div class="details">
+                                    <h4 class="details__title">SUNSET</h4>
+                                    <p> Интернет-магазин<br>с личным кабинетом</p>
+                                    <a class="details__btn btn btn--red" href="#">10000 Р.</a>
+                                </div>
+                            </div>
+                            <div class="templates__item">
+                                <div class="item-title"></div>
+                                <img src="img/porduct-003.jpg" width="240" height="240" alt="FORTE. Одностраничный макет с авторским дизайном.">
+                                <div class="details">
+                                    <h4 class="details__title">FORTE</h4>
+                                    <p> Одностраничный макет<br>с авторским дизайном</p>
+                                    <a class="details__btn btn btn--red" href="#">8000 Р.</a>
+                                </div>
+                            </div>
+                            <div class="templates__item">
+                                <div class="item-title"></div>
+                                <img src="img/porduct-004.jpg" width="240" height="240" alt="MARQVEE. Одностраничный макет с авторским дизайном.">
+                                <div class="details">
+                                    <h4 class="details__title">MARQVEE</h4>
+                                    <p> Одностраничный макет<br>с авторским дизайном</p>
+                                    <a class="details__btn btn btn--red" href="#">8000 Р.</a>
+                                </div>
+                            </div>
+                            <div class="templates__item">
+                                <div class="item-title"></div>
+                                <img src="img/porduct-005.jpg" width="240" height="240" alt="AVENUE. Одностраничный макет с авторским дизайном.">
+                                <div class="details">
+                                    <h4 class="details__title">AVENUE</h4>
+                                    <p>Одностраничный макет<br>с авторским дизайном</p>
+                                    <a class="details__btn btn btn--red" href="#">8000 Р.</a>
+                                </div>
+                            </div>
+                            <div class="templates__item">
+                                <div class="item-title"></div>
+                                <img src="img/porduct-006.jpg" width="240" height="240" alt="DOVETAIL. Одностраничный макет с авторским дизайном.">
+                                <div class="details">
+                                    <h4 class="details__title">DOVETAIL</h4>
+                                    <p>Одностраничный макет<br>с авторским дизайном</p>
+                                    <a class="details__btn btn btn--red" href="#">8000 Р.</a>
+                                </div>
+                            </div>
+                        </div>
+                        <ul class="pager">
+                            <li class="pager__item"><span class="pager-link-active">1</span></li>
+                            <li class="pager__item"><a class="pager-link" href="#">2</a></li>
+                            <li class="pager__item"><a class="pager-link" href="#">3</a></li>
+                            <li class="pager__item"><a class="pager-link pager-link--next" href="#">СЛЕДУЮЩАЯ</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="map-holder">
+                <div class="interactive-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.5991032728616!2d30.323083299999993!3d59.9387942!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywgMTkxMTg2!5e0!3m2!1sru!2sru!4v1442586529032" style="border:0; position: absolute; width: 100%; height: 416px" allowfullscreen></iframe>
+                </div>
+                <div class="container clearfix">
+                    <div class="contacts">
+                        <p class="contacts__title">n&#203;rds desing studio</p>
+                        <p>191186, Санкт-Петербург,<br>ул. Б.Конюшенная, д. 19/8<br></p>
+                        <p class="contacts__tel">тел. +7 (812) 275-75-75</p>
+                        <a class="btn btn--red write-to-us" href="res-form.html">НАПИШИТЕ НАМ</a>
+                    </div>
+                    <div class="modal-form">
+                        <button type="button" class="modal-form__close-btn" title="Закрыть"></button>
+                        <form>
+                            <div class="left-half">
+                                <label class="modal-form-label" for="user-name">Ваше имя:</label>
+                                <input type="text" name="user-name" id="user-name" placeholder="Представьтесь, пожалуйста" class="modal-form-input">
+                            </div>
+                            <div class="right-half">
+                                <label class="modal-form-label" for="user-email">Ваш e-mail:</label>
+                                <input type="text" name="user-email" id="user-email"placeholder="Для отправки ответа" class="modal-form-input">
+                            </div>
+                            <label class="modal-form-label" for="note">Текст письма:</label>
+                            <textarea name="note" id="note" placeholder="В свободной форме" class="modal-form__textarea"></textarea>
+                            <div class="left-half">
+                                <input type="submit" value="Отправить" class="btn btn--red modal-form-btn">
+                            </div>
+                            <div class="right-half">
+                                <input type="reset" value="Отмена" class="btn btn--grey modal-form-btn">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <footer class="footer">
+                <div class="container clearfix">
+                    <div class="social-buttons">
+                        <a class="soc-btn icon-vk" href="http://vk.com"></a>
+                        <a class="soc-btn icon-facebook" href="http://facebook.com"></a>
+                        <a class="soc-btn icon-instagramm" href="http://instagram.com"></a>
+                    </div>
+                    <div class="slogan">
+                        <p class="slogan__item">Давайте дружить, это выгодно!</p>
+                        <p>Скидка 10% для друзей из социальных сетей.</p>
+                    </div>
+                </div>
+            </footer>
+        <script src="js/script.min.js"></script>
+    </body>
+</html>

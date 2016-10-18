@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>index</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,500&amp;subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="modal-form modal-form--perm-show">
+        <form>
+            <div class="left-half">
+                <label class="modal-form-label" for="user-name">Ваше имя:</label>
+                <input type="text" name="user-name" id="user-name" placeholder="Представьтесь, пожалуйста" class="modal-form-input">
+            </div>
+            <div class="right-half">
+                <label class="modal-form-label" for="user-email">Ваш e-mail:</label>
+                <input type="text" name="user-email" id="user-email" placeholder="Для отправки ответа" class="modal-form-input">
+            </div>
+            <label class="modal-form-label" for="note">Текст письма:</label>
+            <textarea name="note" id="note" placeholder="В свободной форме" class="modal-form__textarea"></textarea>
+            <div class="left-half">
+                <input type="submit" value="Отправить" class="btn btn--red modal-form-btn">
+            </div>
+            <div class="right-half">
+                <input type="reset" value="Отмена" class="btn btn--grey modal-form-btn">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
