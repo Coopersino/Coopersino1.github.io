@@ -1,0 +1,26 @@
+body {
+    margin: 30px auto;
+    padding: 0 20px;
+    min-width: 200px;
+    color: #777;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: "Open Sans","Tahoma",sans-serif;
+    line-height: 18px;
+}
+.project-list{
+    list-style: none;
+}
+.project-list__item{
+    margin-bottom: 6px;
+}
+.project-list__item a{
+    color: #777;
+}
+.section-header{
+    margin-bottom: 4px;
+    color: #999;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 14px;
+}
