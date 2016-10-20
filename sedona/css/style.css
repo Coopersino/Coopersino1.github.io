@@ -265,7 +265,7 @@ img {
 .top-header-cover {
   margin-top: -28px;
   background-color: #dbe9f2;
-  background-image: url("/img/bg-intro-triangle-mobile.svg"), url("/img/bg-back-mobile@1x.jpg");
+  background-image: url("img/bg-intro-triangle-mobile.svg"), url("img/bg-back-mobile@1x.jpg");
   background-position: 50% 100%, 50% bottom;
   background-repeat: no-repeat;
   margin-bottom: 38px;
@@ -367,7 +367,7 @@ img {
   width: 26px;
   font-size: 0;
   line-height: 0;
-  background: url("../img/icon-cross.svg") no-repeat 50% 50%;
+  background: url("img/icon-cross.svg") no-repeat 50% 50%;
   background-color: transparent;
   border: none;
 }
@@ -533,7 +533,7 @@ img {
 }
 .map-holder {
   background-color: #f3f1ed;
-  background-image: url("/img/bg-map-mobile@1x.jpg");
+  background-image: url("img/bg-map-mobile@1x.jpg");
   background-repeat: no-repeat;
   min-height: 350px;
   margin-bottom: 35px;
@@ -645,7 +645,7 @@ img {
 }
 .video-presentation__content {
   background-color: #c69d96;
-  background-image: url("/img/video-mobile@1x.jpg");
+  background-image: url("img/video-mobile@1x.jpg");
   background-repeat: no-repeat;
   background-size: 320px 200px;
   min-height: 200px;
@@ -1038,7 +1038,7 @@ img {
   background-color: #a4a4a4;
 }
 .feedback-form__field--places:checked + .feedback-form__caption--places::after {
-  background-image: url("/img/icon-tick.svg");
+  background-image: url("img/icon-tick.svg");
   background-repeat: no-repeat;
   content: "";
   display: block;
@@ -1049,7 +1049,7 @@ img {
   width: 24px;
 }
 .feedback-form__field--places:checked + .feedback-form__caption--places:active::after {
-  background-image: url("/img/icon-tick-active.svg");
+  background-image: url("img/icon-tick-active.svg");
 }
 .feedback-form__list {
   list-style: none;
@@ -1075,10 +1075,10 @@ img {
   position: relative;
 }
 .feedback-form__phone .feedback-form__caption::after {
-  background-image: url("/img/icon-phone.svg");
+  background-image: url("img/icon-phone.svg");
 }
 .feedback-form__email .feedback-form__caption::after {
-  background-image: url("/img/icon-mail.svg");
+  background-image: url("img/icon-mail.svg");
 }
 .feedback-form__emotions {
   background-color: #f2f2f2;
@@ -1182,7 +1182,7 @@ img {
     width: 460px;
   }
   .top-header-cover {
-    background-image: url("/img/bg-intro-triangle-tablet.svg"), url("/img/bg-back-tablet@1x.jpg");
+    background-image: url("img/bg-intro-triangle-tablet.svg"), url("img/bg-back-tablet@1x.jpg");
     background-position: 50% 100%, 50% bottom;
     background-repeat: no-repeat;
     margin-bottom: 50px;
@@ -1366,7 +1366,7 @@ img {
     display: inline;
   }
   .map-holder {
-    background-image: url("/img/bg-map-tablet@1x.jpg");
+    background-image: url("img/bg-map-tablet@1x.jpg");
     margin-bottom: 55px;
   }
   .gallery-section {
@@ -1462,7 +1462,7 @@ img {
     margin-bottom: 73px;
   }
   .video-presentation__content {
-    background-image: url("/img/video-tablet@1x.jpg");
+    background-image: url("img/video-tablet@1x.jpg");
     background-size: 648px 500px;
     min-height: 500px;
   }
@@ -1764,12 +1764,12 @@ img {
 }
 @media (min-width: 768px) and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 768px), (min-width: 768px) and (min-resolution: 144dpi) and (min-width: 768px), (min-width: 768px) and (min-resolution: 1.5dppx) and (min-width: 768px) {
   .top-header-cover {
-    background-image: url("/img/bg-intro-triangle-tablet.svg"), url(/img/bg-back-tablet@2x.jpg);
+    background-image: url("img/bg-intro-triangle-tablet.svg"), url(/img/bg-back-tablet@2x.jpg);
   }
 }
 @media (min-width: 768px) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 768px) and (min-resolution: 144dpi), (min-width: 768px) and (min-resolution: 1.5dppx) {
   .video-presentation__content {
-    background-image: url("/img/video-tablet@2x.jpg");
+    background-image: url("img/video-tablet@2x.jpg");
   }
 }
 @media (min-width: 1200px) {
@@ -1781,7 +1781,7 @@ img {
     width: 480px;
   }
   .top-header-cover {
-    background-image: url("/img/bg-intro-triangle-desktop.svg"), url("/img/bg-back-desktop@1x.jpg");
+    background-image: url("img/bg-intro-triangle-desktop.svg"), url("img/bg-back-desktop@1x.jpg");
     background-position: 50% 100%, 50% bottom;
     background-repeat: no-repeat;
     margin-top: -100px;
@@ -1861,7 +1861,7 @@ img {
     margin-bottom: 40px;
   }
   .map-holder {
-    background-image: url("/img/bg-map-tablet@1x.jpg");
+    background-image: url("img/bg-map-tablet@1x.jpg");
   }
   .gallery-section {
     margin-bottom: 70px;
@@ -1916,7 +1916,7 @@ img {
     margin-bottom: 71px;
   }
   .video-presentation__content {
-    background-image: url("/img/video-desktop@1x.jpg");
+    background-image: url("img/video-desktop@1x.jpg");
     background-size: 800px 500px;
   }
   .video-presentation__controls {
@@ -2065,20 +2065,20 @@ img {
 }
 @media (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 768px), (min-width: 1200px) and (min-resolution: 144dpi) and (min-width: 768px), (min-width: 1200px) and (min-resolution: 1.5dppx) and (min-width: 768px) {
   .top-header-cover {
-    background-image: url("/img/bg-intro-triangle-desktop.svg"), url(/img/bg-back-desktop@2x.jpg);
+    background-image: url("img/bg-intro-triangle-desktop.svg"), url(/img/bg-back-desktop@2x.jpg);
   }
 }
 @media (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 1200px) and (min-resolution: 144dpi), (min-width: 1200px) and (min-resolution: 1.5dppx) {
   .video-presentation__content {
-    background-image: url("/img/video-desktop@2x.jpg");
+    background-image: url("img/video-desktop@2x.jpg");
   }
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
   .top-header-cover {
-    background-image: url("/img/bg-intro-triangle-mobile.svg"), url("/img/bg-back-mobile@2x.jpg");
+    background-image: url("img/bg-intro-triangle-mobile.svg"), url("img/bg-back-mobile@2x.jpg");
   }
   .video-presentation__content {
-    background-image: url("/img/video-mobile@2x.jpg");
+    background-image: url("img/video-mobile@2x.jpg");
   }
 }
 @media (max-width: 767px) {
@@ -2089,7 +2089,7 @@ img {
     display: none;
   }
   .main-nav--opened .main-nav__toggle {
-    background: url(/img/icon-cross.svg) no-repeat 50% 50%;
+    background: url("img/icon-cross.svg") no-repeat 50% 50%;
   }
   .main-nav__link:hover {
     background-color: #669ec0;
