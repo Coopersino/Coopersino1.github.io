@@ -8,13 +8,13 @@ body {
     font-family: "Open Sans","Tahoma",sans-serif;
     line-height: 18px;
 }
-.project-list{
+.projects-list{
     list-style: none;
 }
-.project-list__item{
+.projects-list__item{
     margin-bottom: 6px;
 }
-.project-list__item a{
+.projects-list__item a{
     color: #777;
 }
 .section-header{
