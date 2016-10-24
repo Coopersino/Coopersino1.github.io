@@ -17,7 +17,7 @@ body {
 .projects-list__item a{
     color: #777;
 }
-.section-header{
+.main-section__header {
     margin-bottom: 4px;
     color: #999;
     text-transform: uppercase;
